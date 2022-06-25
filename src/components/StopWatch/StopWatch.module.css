@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+}
+
+.numbers {
+  margin: 20px 0;
+  color: #555;
+  font-size: 50px;
+  font-family: "Roboto Mono";
+}
+
+.button {
+  cursor: pointer;
+  margin: 0 20px;
+  font-size: 20px;
+  border-radius: 50%;
+  color: white;
+  display: inline-flex;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  background-color: #4caf50;
+}
+
+.start:hover {
+  background-color: #81c784;
+
+}
+
+.stop {
+  background-color: #f44336;
+
+}
+
+.stop:hover {
+  background-color: #e57373;
+
+}
+
+.reset {
+  background-color: #2196f3;
+}
+
+.reset:hover {
+  background-color: #64b5f6;
+
+}
